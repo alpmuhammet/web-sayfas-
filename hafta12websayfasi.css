@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;  
+ 
+
+
+}
+body{
+    margin: 0;
+    padding: 0;  
+    background-color: grey;
+}
+
+#social{
+    
+    color: white;
+    height: 55px;
+    width: 100%;         
+    font-size: 18px;  
+    text-align:center; 
+    padding: 15px;
+
+}
+
+
+#headerresim{
+    width: 15px;
+    height: auto;
+    margin-top: 25px;
+}
+.container li{
+    display: inline-flex;
+        flex-direction: row;
+        letter-spacing: 1px;
+        padding: 15px;
+        overflow: auto;
+        
+}
+header{
+   width: auto; ;
+   height: auto;
+   background-color  :rgb(236, 232, 232);
+   text-align: left;
+   
+    padding-left:50px;
+    
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     overflow: auto;
+}
+#img{
+    width:auto ;
+}
+header li{
+    color: green;
+    margin: 0;
+    padding: 0;
+   list-style-type: none;   /*noktaları kaldırmamıza yarar*/
+   text-decoration: none;
+   
+}
+a{
+    mask-image: url(img/ok.png);
+    text-decoration: none;
+    color: green;
+}
+.container li:hover{
+    color: rgba(192, 179, 179, 0.377);
+    height:auto;
+    width:auto;
+    background-color:aqua;
+
+}
+section{
+
+    width: 70%;
+    background-color: white;
+    color: black;
+    float :right;
+    margin: 10px;
+    padding: 20px;
+
+
+}
+.arama{
+    
+    color: rgb(196, 176, 176);
+    border :solid white  ;
+    width: 20%;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 20px;
+    
+}
